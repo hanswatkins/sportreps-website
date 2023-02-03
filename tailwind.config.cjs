@@ -1,19 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      height: {
-        '0.3': '1px'
+	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+	theme: {
+		extend: {
+			height: {
+				0.3: '1px',
+			},
+			fontFamily: {
+				header: ['aktiv-grotesk', 'sans-serif'],
+        body: ['aktiv-grotesk'],
+        thin: ['aktiv-grotesk-thin']
       },
-      fontFamily: {
-        header: ["aktiv-grotesk", 'sans-serif'],
-        body: ["aktiv-grotesk"]
-      }
-    },
-  },
-  plugins: [],
-}
+
+		},
+	},
+	plugins: [],
+};

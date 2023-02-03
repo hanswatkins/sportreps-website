@@ -16,7 +16,7 @@ export default function ErrorPage() {
 					<span className='font-body text-slate-400 italic'>
 						{error.statusText || error.message}
 					</span>
-					; An unexpected error has occurred.
+					{' '}-{' '}An unexpected error has occurred.
 				</p>
 
 				<Link
