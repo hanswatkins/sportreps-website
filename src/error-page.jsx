@@ -11,10 +11,14 @@ export default function ErrorPage() {
 		>
 			<div className='p-7 flex flex-col gap-6'>
 				<h1 className='text-4xl font-bold font-header'>Oops!</h1>
-				<p className='font-body'>An unexpected error has occurred.</p>
-				<p className='font-body text-slate-400'>
-					<i>{error.statusText || error.message}</i>
+				<p className='font-body'>
+					{' '}
+					<span className='font-body text-slate-400 italic'>
+						{error.statusText || error.message}
+					</span>
+					; An unexpected error has occurred.
 				</p>
+
 				<Link
 					to={'/'}
 					className='font-body text-indigo-500 outline rounded py-4 shadow-lg hover:bg-indigo-500 hover:text-white hover:outline-none hover:shadow-none transition duration-300'

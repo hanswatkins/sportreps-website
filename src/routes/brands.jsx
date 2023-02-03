@@ -8,7 +8,7 @@ import pic6 from '../assets/pic6.jpg';
 
 const Brands = () => {
 	return (
-		<div>
+		<div className='flex flex-col '>
 			<img src={pic1} alt='...' />
 			<img src={pic2} alt='...' />
 			<img src={pic3} alt='...' />

@@ -7,7 +7,7 @@ const NavBar = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 	return (
 		//    Title and Logo
-		<div className='flex items-center justify-between '>
+		<div className='flex items-center justify-between mb-10'>
 			<div className='flex items-center gap-3'>
 				{/* <img className='w-20' src={logo} alt='logo' /> */}
 				<h1 className='text-2xl md:text-3xl font-bold font-header select-none tracking-wide dark:text-white'>
@@ -29,11 +29,15 @@ const NavBar = () => {
 			{/* Desktop Nav Links  */}
 			<div className='hidden lg:flex'>
 				<ul className='font-body flex gap-4 text-lg'>
-					<Link to={'/'} className='underline underline-offset-8' >
+					<Link to={'/'} className='underline underline-offset-8'>
 						Brands
 					</Link>
 
-                    <Link to={'/contact'} className='underline underline-offset-8' href='/contact'>
+					<Link
+						to={'/contact'}
+						className='underline underline-offset-8'
+						href='/contact'
+					>
 						Contact
 					</Link>
 				</ul>
@@ -60,7 +64,9 @@ const NavBar = () => {
 				</div>
 				<ul className='flex flex-col items-center'>
 					<li className='hover:text-indigo-400 hover:border-indigo-400 border-b border-gray-400 my-8 uppercase font-bold '>
-						<Link to={'/'} onClick={() => setIsNavOpen(false)}>Brands</Link>
+						<Link to={'/'} onClick={() => setIsNavOpen(false)}>
+							Brands
+						</Link>
 					</li>
 					<li
 						onClick={() => setIsNavOpen(false)}
