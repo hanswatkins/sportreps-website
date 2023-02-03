@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        '0.3': '1.5px'
+        '0.3': '1px'
       },
       fontFamily: {
         header: ["aktiv-grotesk", 'sans-serif'],

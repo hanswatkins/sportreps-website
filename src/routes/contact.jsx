@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Brands = () => {
+const Contact = () => {
     return (
         <div>
-            Brands.jsx
+            contact.jsx
         </div>
     );
 };
 
-export default Brands;
+export default Contact;

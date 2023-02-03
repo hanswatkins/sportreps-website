@@ -4,7 +4,7 @@ import NavBar from './components/NavBar'
 
 function App() {
   return (
-    <div className='m-8'>
+    <div className='m-6 dark:bg-[#121212]'>
       <NavBar />
       <Brands />
 
