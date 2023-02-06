@@ -13,6 +13,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				'backpackers': "url('/src/assets/backpackers-pantry.jpg')",
+				'boreal': "url('/src/assets/boreal.jpg')",
 			},
 			margin: {
 				'22': '5.5rem',

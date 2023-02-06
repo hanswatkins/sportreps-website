@@ -7,6 +7,7 @@ import ErrorPage from './error-page';
 import Contact from './routes/contact';
 import Brands from './routes/brands';
 import BackpackersPantry from './routes/backpackersPantry'
+import Boreal from './routes/boreal'
 
 const router = createBrowserRouter([
 	{
@@ -24,7 +25,11 @@ const router = createBrowserRouter([
 			},
 			{
 				path: '/backpackers-pantry',
-				element: <BackpackersPantry />
+				element: <BackpackersPantry />,
+			},
+			{
+				path: '/boreal',
+				element: <Boreal />,
 			}
 		],
 	},

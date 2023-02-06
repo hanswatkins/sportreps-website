@@ -11,7 +11,8 @@ const backpackersPantry = () => {
 	return (
 		<div className='-mt-22 md:-mt-36 lg:-mt-46'>
 			<div className='bg-backpackers h-screen z-0 bg-cover'></div>
-			<div className='flex flex-col m-6 md:m-14 md:grid md:grid-cols-2 md:items-center min-h-[400px] whitespace-pre-wrap gap-5'>
+			<div className='flex flex-col m-6 
+			sm:m-16 md:m-14 md:grid md:grid-cols-2 md:items-center min-h-[400px] whitespace-pre-wrap gap-5'>
 				<div className='mt-24 md:mt-0 font-header'>
 					<h1 className='text-3xl md:text-5xl font-bold '>
 						Backpacker's Pantry:{' '}
@@ -20,7 +21,7 @@ const backpackersPantry = () => {
 						Fueling your adventure
 					</h1>
 				</div>
-				<p className='mt-5 mb-24 md:mt-0 md:mb-0 font-body text-lg'>
+				<p className='mt-5 font-body text-lg'>
 					Whether you’re doing an overnighter or a multi-day trek, backpacking
 					light is the way to go. Packing enough food to fuel your body is vital
 					but ounces become pounds when you start moving. Our Backpacker's
