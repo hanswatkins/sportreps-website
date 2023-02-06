@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import backpackersPantry from '../assets/backpackers-pantry.jpg';
 import boreal from '../assets/boreal.jpg';
 import gotBag from '../assets/got-bag.jpg';
@@ -10,19 +11,23 @@ import wolky from '../assets/wolky.jpg';
 const Brands = () => {
 	return (
 		<>
-			<div className='flex flex-col gap-3 md:grid md:grid-cols-2 select-none'>
-				<div className='relative group'>
-					<img src={backpackersPantry} alt='...' />
-					<h1 className='opacity-0 group-hover:opacity-100 transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
-						BACKPACKER'S PANTRY
-					</h1>
-				</div>
-				<div className='relative group'>
-					<img src={boreal} alt='...' />
-					<h1 className='opacity-0 group-hover:opacity-100 transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
-						BOREAL
-					</h1>
-				</div>
+			<div className='flex flex-col gap-3 md:grid md:grid-cols-2 select-none m-6 md:m-14'>
+				<Link to={'/backpackers-pantry'}>
+                    <div className='relative group'>
+                        <img src={backpackersPantry} alt='...' />
+                        <h1 className='opacity-0 group-hover:opacity-100 transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-2xl lg:text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
+                            BACKPACKER'S PANTRY
+                        </h1>
+                    </div>
+                </Link>
+				<Link to={'/boreal'}>
+                    <div className='relative group'>
+                        <img src={boreal} alt='...' />
+                        <h1 className='opacity-0 group-hover:opacity-100 transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
+                            BOREAL
+                        </h1>
+                    </div>
+                </Link>
 				<div className='relative group'>
 					<img src={gotBag} alt='...' />
 					<h1 className='opacity-0 group-hover:opacity-100 transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>

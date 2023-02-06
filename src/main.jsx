@@ -6,6 +6,7 @@ import Root from './routes/root';
 import ErrorPage from './error-page';
 import Contact from './routes/contact';
 import Brands from './routes/brands';
+import BackpackersPantry from './routes/backpackersPantry'
 
 const router = createBrowserRouter([
 	{
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
 				path: '/contact',
 				element: <Contact />,
 			},
+			{
+				path: '/backpackers-pantry',
+				element: <BackpackersPantry />
+			}
 		],
 	},
 ]);

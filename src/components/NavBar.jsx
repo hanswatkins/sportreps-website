@@ -2,18 +2,19 @@ import React from 'react';
 import { useState } from 'react';
 import logo from '../assets/sportreps-logo.png';
 import { Link } from 'react-router-dom';
-import { BsEnvelope, BsTelephone } from 'react-icons/bs'
 
 const NavBar = () => {
 	const [isNavOpen, setIsNavOpen] = useState(false);
 	return (
 		//    Title and Logo
-		<div className='flex items-center justify-between mb-8 lg:mb-24'>
+		<div className='flex items-center justify-between mb-8 lg:mb-24 m-6 md:m-14 bg-transparent z-50'>
 			<div className='flex items-center gap-3'>
 				{/* <img className='w-20' src={logo} alt='logo' /> */}
-				<h1 className='text-2xl md:text-3xl lg:text-4xl font-bold font-header select-none tracking-wider '>
-					SportReps NW
-				</h1>
+				<Link to={'/'} className='hover:cursor-pointer'>
+					<h1 className='text-2xl md:text-3xl lg:text-4xl font-bold font-header select-none tracking-wider '>
+						SportReps NW
+					</h1>
+				</Link>
 			</div>
 
 			{/* Hamburger menu */}
@@ -32,7 +33,7 @@ const NavBar = () => {
 				<div className='font-body tracking-wider flex gap-4 text-lg items-center'>
 					<Link
 						to={'/'}
-						className='hover:underline hover:underline-offset-8 select-none decoration-1'
+						className='hover:underline hover:underline-offset-8 select-none decoration-1 '
 					>
 						Brands
 					</Link>
@@ -67,16 +68,22 @@ const NavBar = () => {
 					</svg>
 				</div>
 				<ul className='flex flex-col items-center'>
-					<li className='hover:text-gray-300 hover:border-gray-300 border-b border-gray-300 my-8 uppercase font-bold '>
-						<Link to={'/'} className='font-header tracking-wider' onClick={() => setIsNavOpen(false)}>
+					<li className='hover:text-gray-300 hover:border-gray-300 hover:border-b my-8 uppercase font-bold'>
+						<Link
+							to={'/'}
+							className='font-header tracking-wider'
+							onClick={() => setIsNavOpen(false)}
+						>
 							Brands
 						</Link>
 					</li>
 					<li
 						onClick={() => setIsNavOpen(false)}
-						className='hover:text-gray-300 hover:border-gray-300 border-b  border-gray-300 my-8 uppercase font-bold'
+						className='hover:text-gray-300 hover:border-gray-300 hover:border-b my-8 uppercase font-bold'
 					>
-						<Link to={'/contact'} className='font-header tracking-wider'>Contact</Link>
+						<Link to={'/contact'} className='font-header tracking-wider'>
+							Contact
+						</Link>
 					</li>
 				</ul>
 			</div>

@@ -8,10 +8,17 @@ module.exports = {
 			},
 			fontFamily: {
 				header: ['aktiv-grotesk', 'sans-serif'],
-        body: ['aktiv-grotesk'],
-        thin: ['aktiv-grotesk-thin']
-      },
-
+				body: ['aktiv-grotesk'],
+				thin: ['aktiv-grotesk-thin'],
+			},
+			backgroundImage: {
+				'backpackers': "url('/src/assets/backpackers-pantry.jpg')",
+			},
+			margin: {
+				'22': '5.5rem',
+				'36': '9.24rem',
+				'46': '12rem',
+			}
 		},
 	},
 	plugins: [],
