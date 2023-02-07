@@ -6,8 +6,12 @@ import Root from './routes/root';
 import ErrorPage from './error-page';
 import Contact from './routes/contact';
 import Brands from './routes/brands';
-import BackpackersPantry from './routes/backpackersPantry'
-import Boreal from './routes/boreal'
+import BackpackersPantry from './routes/backpackersPantry';
+import Boreal from './routes/boreal';
+import GotBag from './routes/gotbag';
+import Haflinger from './routes/haflinger';
+import Point6 from './routes/point6';
+import Velous from './routes/velous';
 
 const router = createBrowserRouter([
 	{
@@ -30,7 +34,23 @@ const router = createBrowserRouter([
 			{
 				path: '/boreal',
 				element: <Boreal />,
-			}
+			},
+			{
+				path: '/got-bag',
+				element: <GotBag />,
+			},
+			{
+				path: '/haflinger',
+				element: <Haflinger />,
+			},
+			{
+				path: '/point-6',
+				element: <Point6 />,
+			},
+			{
+				path: '/velous-footwear',
+				element: <Velous />,
+			},
 		],
 	},
 ]);

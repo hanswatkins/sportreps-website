@@ -6,7 +6,7 @@ import Brands from './brands';
 
 export default function Root() {
 	return (
-		<div className=''>
+		<div>
 			<ScrollToTop />
 			<NavBar />
 			<div id='detail'>

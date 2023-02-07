@@ -10,15 +10,17 @@ import { Link } from 'react-router-dom';
 const backpackersPantry = () => {
 	return (
 		<div className='-mt-22 md:-mt-36 lg:-mt-46'>
-			<div className='bg-backpackers h-screen z-0 bg-cover'></div>
-			<div className='flex flex-col m-6 
-			sm:m-16 md:m-14 md:grid md:grid-cols-2 md:items-center min-h-[400px] whitespace-pre-wrap gap-5'>
+			<div className='bg-backpackers h-screen z-0 bg-cover bg-center'></div>
+			<div
+				className='flex flex-col m-6 
+			sm:m-16 md:m-14 md:grid md:grid-cols-2 md:items-center min-h-[400px] whitespace-pre-wrap gap-5'
+			>
 				<div className='mt-24 md:mt-0 font-header'>
 					<h1 className='text-3xl md:text-5xl font-bold '>
 						Backpacker's Pantry:{' '}
 					</h1>
 					<h1 className='text-3xl font-bold md:text-4xl'>
-						Fueling your adventure
+						Fueling your adventure.
 					</h1>
 				</div>
 				<p className='mt-5 font-body text-lg'>
