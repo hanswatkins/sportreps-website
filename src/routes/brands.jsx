@@ -7,6 +7,7 @@ import haflinger from '../assets/haflinger.jpg';
 import point6 from '../assets/point6.jpeg';
 import velous from '../assets/velous.jpg';
 import wolky from '../assets/wolky.jpg';
+import kurt from '../assets/kurt.png';
 
 const Brands = () => {
 	return (
@@ -68,17 +69,14 @@ const Brands = () => {
 						</h1>
 					</div>
 				</Link>
-				<div className='relative group'>
-					<div className='bg-[#1DA1F2] h-full'>
-						<div className='flex group-hover:cursor-pointer items-center justify-center text-white text-3xl absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20 hover:from-gray-500/20 hover:to-white/20 transition duration-200'>
-							<div className='text-center'>
-								<h1 className='font-bold'>KURT WATKINS</h1>
-								<h1 className='font-thin'>425-785-6406</h1>
-								<h1 className='font-thin text-2xl'>kurt@sportreps.net</h1>
-							</div>
-						</div>
+				<Link to={'/contact'}>
+					<div className='relative group'>
+						<img src={kurt} alt='...' />
+						<h1 className='transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
+							CONTACT
+						</h1>
 					</div>
-				</div>
+				</Link>
 			</div>
 		</>
 	);
