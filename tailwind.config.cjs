@@ -18,6 +18,7 @@ module.exports = {
 				'haflinger': "url('/src/assets/haflinger.jpg')",
 				'point6': "url('/src/assets/point6.jpeg')",
 				'velous': "url('/src/assets/velous.jpg')",
+				'wolky': "url('/src/assets/wolky.jpg')",
 			},
 			margin: {
 				'22': '5.5rem',

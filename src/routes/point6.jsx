@@ -42,7 +42,7 @@ const point6 = () => {
 					<p className='text-2xl font-bold font-header'>HAFLINGER</p>
 				</Link>
 
-				<Link to={'/point-6'} className='flex items-center gap-2'>
+				<Link to={'/velous-footwear'} className='flex items-center gap-2'>
 					<p className='text-2xl font-bold font-header'>VELOUS</p>
 					<div>
 						<BsChevronRight size={'2rem'} />

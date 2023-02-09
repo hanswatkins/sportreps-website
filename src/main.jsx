@@ -12,6 +12,8 @@ import GotBag from './routes/gotbag';
 import Haflinger from './routes/haflinger';
 import Point6 from './routes/point6';
 import Velous from './routes/velous';
+import Wolky from './routes/wolky';
+
 
 const router = createBrowserRouter([
 	{
@@ -51,6 +53,10 @@ const router = createBrowserRouter([
 				path: '/velous-footwear',
 				element: <Velous />,
 			},
+			{
+				path: '/wolky',
+				element: <Wolky />,
+			}
 		],
 	},
 ]);
