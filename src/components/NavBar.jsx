@@ -11,7 +11,7 @@ const NavBar = () => {
 			<div className='flex items-center gap-3'>
 				{/* <img className='w-20' src={logo} alt='logo' /> */}
 				<Link to={'/'} className='hover:cursor-pointer'>
-					<h1 className='text-2xl md:text-3xl lg:text-4xl font-bold font-header select-none tracking-wider '>
+					<h1 className='text-2xl md:text-3xl lg:text-4xl font-bold font-header select-none tracking-wider hover:cursor-pointer'>
 						SportReps NW
 					</h1>
 				</Link>
