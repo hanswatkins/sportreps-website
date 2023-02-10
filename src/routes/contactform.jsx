@@ -10,7 +10,7 @@ const contactform = () => {
 				autocomplete='off'
 				name='contact'
 				method='post'
-				action='/form/success'
+				action='/success'
 			>
 				<h1 className='text-white text-3xl m-6'>Contact Me</h1>
 				<input class='input' type='hidden' name='form-name' value='contact' />

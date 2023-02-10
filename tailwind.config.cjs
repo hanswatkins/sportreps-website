@@ -5,6 +5,7 @@ module.exports = {
 		extend: {
 			height: {
 				0.3: '1px',
+				'3/4-screen': '75vh'
 			},
 			fontFamily: {
 				header: ['aktiv-grotesk', 'sans-serif'],
