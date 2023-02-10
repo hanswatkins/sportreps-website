@@ -72,7 +72,7 @@ const Brands = () => {
 				<Link to={'/contact'}>
 					<div className='relative group'>
 						<img src={kurt} alt='...' />
-						<h1 className='transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20'>
+						<h1 className='transition duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20 hover:bg-gradient-to-l'>
 							CONTACT
 						</h1>
 					</div>
