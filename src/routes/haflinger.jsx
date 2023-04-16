@@ -35,7 +35,7 @@ const haflinger = () => {
 			</div>
 
 			<nav className='p-6 md:p-14 justify-between text-2xl flex'>
-				<Link to={'/got-bag'} className='flex items-center gap-2'>
+				<Link to={'/gruezi'} className='flex items-center gap-2'>
 					<div>
 						<BsChevronLeft size={'2rem'} />
 					</div>
