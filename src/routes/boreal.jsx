@@ -40,8 +40,8 @@ const boreal = () => {
 					<p className='text-2xl font-bold font-header'>BACKPACKER'S PANTRY</p>
 				</Link>
 
-				<Link to={'/got-bag'} className='flex items-center gap-2'>
-					<p className='text-2xl font-bold font-header'>GOT BAG</p>
+				<Link to={'/gruezi'} className='flex items-center gap-2'>
+					<p className='text-2xl font-bold font-header'>GRÜEZI BAG</p>
 					<div>
 						<BsChevronRight size={'2rem'} />
 					</div>

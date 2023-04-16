@@ -9,7 +9,7 @@ const NavBar = () => {
 	if (
 		location.pathname == '/boreal' ||
 		location.pathname == '/backpackers-pantry' ||
-		location.pathname == '/got-bag' ||
+		location.pathname == '/gruezi' ||
 		location.pathname == '/haflinger' ||
 		location.pathname == '/velous-footwear' ||
 		location.pathname == '/wolky'

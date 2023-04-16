@@ -39,7 +39,7 @@ const haflinger = () => {
 					<div>
 						<BsChevronLeft size={'2rem'} />
 					</div>
-					<p className='text-2xl font-bold font-header'>GOT BAG</p>
+					<p className='text-2xl font-bold font-header'>GRÜEZI BAG</p>
 				</Link>
 
 				<Link to={'/point-6'} className='flex items-center gap-2'>

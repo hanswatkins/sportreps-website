@@ -12,7 +12,7 @@ import Contact from './routes/contact';
 import Brands from './routes/brands';
 import BackpackersPantry from './routes/backpackersPantry';
 import Boreal from './routes/boreal';
-import GotBag from './routes/gotbag';
+import Gruezi from './routes/gruezi';
 import Haflinger from './routes/haflinger';
 import Point6 from './routes/point6';
 import Velous from './routes/velous';
@@ -43,8 +43,8 @@ const router = createBrowserRouter([
 				element: <Boreal />,
 			},
 			{
-				path: '/got-bag',
-				element: <GotBag />,
+				path: '/gruezi',
+				element: <Gruezi />,
 			},
 			{
 				path: '/haflinger',
