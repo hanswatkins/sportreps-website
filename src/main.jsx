@@ -18,7 +18,7 @@ import Haflinger from "./routes/haflinger";
 import Point6 from "./routes/point6";
 import Velous from "./routes/velous";
 import Wolky from "./routes/wolky";
-import ContactForm from "./routes/ContactForm";
+import ContactForm from "./routes/contactform";
 import Success from "./routes/success";
 
 const router = createBrowserRouter([

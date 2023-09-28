@@ -1,6 +1,5 @@
 import React from "react";
-import ContactForm from "./ContactForm";
-
+import ContactForm from "./contactform";
 const contactNew = () => {
   return (
     <div className="-mt-22 md:-mt-36 lg:-mt-46">
