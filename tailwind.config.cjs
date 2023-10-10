@@ -23,6 +23,7 @@ module.exports = {
 				wolky: "url('/src/assets/wolky.jpg')",
 				emu: "url('/src/assets/emu-australia.png')",
 				emu2: "url('/src/assets/emu2-edit.jpg')",
+				chillAngel: "url('/src/assets/chillangel-bottoms.jpg')",
 				kurt: "url('/src/assets/aboutphoto3.jpg')",
 			},
 			margin: {
