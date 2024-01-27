@@ -10,7 +10,6 @@ import Root from './routes/root';
 import ErrorPage from './error-page';
 import Contact from './routes/contactNew';
 import Brands from './routes/brands';
-import BackpackersPantry from './routes/backpackersPantry';
 import Boreal from './routes/boreal';
 import ChillAngel from './routes/chillAngel';
 import EmuAustralia from './routes/emuAustralia';
@@ -36,10 +35,7 @@ const router = createBrowserRouter([
 				path: '/contact',
 				element: <Contact />,
 			},
-			{
-				path: '/backpackers-pantry',
-				element: <BackpackersPantry />,
-			},
+
 			{
 				path: '/boreal',
 				element: <Boreal />,
