@@ -48,8 +48,8 @@ const point6 = () => {
           <p className="font-bold font-header">HAFLINGER</p>
         </Link>
 
-        <Link to={"/velous-footwear"} className="flex items-center gap-2">
-          <p className="font-bold font-header">VELOUS</p>
+        <Link to={"/wolky"} className="flex items-center gap-2">
+          <p className="font-bold font-header">WOLKY</p>
           <div>
             <BsChevronRight size={"2rem"} />
           </div>

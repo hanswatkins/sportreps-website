@@ -16,7 +16,6 @@ import EmuAustralia from './routes/emuAustralia';
 import Gruezi from './routes/gruezi';
 import Haflinger from './routes/haflinger';
 import Point6 from './routes/point6';
-import Velous from './routes/velous';
 import Wolky from './routes/wolky';
 import ContactForm from './routes/contactform';
 import Success from './routes/success';
@@ -59,10 +58,6 @@ const router = createBrowserRouter([
 			{
 				path: '/point-6',
 				element: <Point6 />,
-			},
-			{
-				path: '/velous-footwear',
-				element: <Velous />,
 			},
 			{
 				path: '/wolky',
