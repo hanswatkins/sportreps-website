@@ -18,7 +18,7 @@ const gruezi = () => {
           </h1>
           <Link
             to="https://gz-bag-usa.com/"
-            className="text-sm hover:underline hover:text-white hover:bg-black transition-all duration-400"
+            className="text-sm hover:underline hover:text-white hover:bg-red-600 transition-all duration-400"
           >
             Visit Grüezi Bag &rarr;
           </Link>

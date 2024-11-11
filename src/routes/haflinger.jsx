@@ -18,7 +18,7 @@ const haflinger = () => {
           </h1>
           <Link
             to="https://haflingerusa.com/"
-            className="text-sm hover:underline hover:text-white hover:bg-black transition-all duration-400"
+            className="text-sm hover:underline hover:text-white hover:bg-red-500 transition-all duration-400"
           >
             Visit Haflinger &rarr;
           </Link>
@@ -48,8 +48,8 @@ const haflinger = () => {
           <p className="font-bold font-header">GRÜEZI BAG</p>
         </Link>
 
-        <Link to={"/point-6"} className="flex items-center gap-2">
-          <p className="font-bold font-header">POINT 6</p>
+        <Link to={"/ice-peak"} className="flex items-center gap-2">
+          <p className="font-bold font-header">ICE PEAK</p>
           <div>
             <BsChevronRight size={"2rem"} />
           </div>

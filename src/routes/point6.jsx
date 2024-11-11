@@ -16,7 +16,7 @@ const point6 = () => {
           <h1 className="text-3xl font-bold md:text-4xl">Merino Mastered.</h1>
           <Link
             to="https://point6.com/"
-            className="text-sm hover:underline hover:text-white hover:bg-black transition-all duration-400"
+            className="text-sm hover:underline hover:text-white hover:bg-orange-400 transition-all duration-400"
           >
             Visit Point6 &rarr;
           </Link>
@@ -41,11 +41,11 @@ const point6 = () => {
       </div>
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
-        <Link to={"/haflinger"} className="flex items-center gap-2">
+        <Link to={"/ice-peak"} className="flex items-center gap-2">
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
-          <p className="font-bold font-header">HAFLINGER</p>
+          <p className="font-bold font-header">ICE PEAK</p>
         </Link>
 
         <Link to={"/wolky"} className="flex items-center gap-2">
