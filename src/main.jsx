@@ -17,6 +17,7 @@ import EmuAustralia from "./routes/emuAustralia";
 import Gruezi from "./routes/gruezi";
 import Haflinger from "./routes/haflinger";
 import IcePeak from "./routes/icePeak";
+import Luhta from "./routes/luhta";
 import Point6 from "./routes/point6";
 import Wolky from "./routes/wolky";
 import ContactForm from "./routes/contactform";
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
       {
         path: "/ice-peak",
         element: <IcePeak />,
+      },
+      {
+        path: "/luhta",
+        element: <Luhta />,
       },
       {
         path: "/point-6",
