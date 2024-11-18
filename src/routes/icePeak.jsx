@@ -12,7 +12,7 @@ const icePeak = () => {
       <div className="bg-icePeak h-screen z-0 bg-cover bg-center"></div>
       <div className="flex flex-col m-6 sm:m-16 md:m-14 md:grid md:grid-cols-2 md:items-center min-h-[400px] whitespace-pre-wrap gap-5">
         <div className="mt-24 md:mt-0 font-header w-2/3">
-          <h1 className="text-3xl md:text-5xl font-bold ">Ice Peak: </h1>
+          <h1 className="text-3xl md:text-5xl font-bold ">Icepeak: </h1>
           <h1 className="text-3xl font-bold md:text-4xl">
             Functional outdoor clothing.
           </h1>
@@ -20,7 +20,7 @@ const icePeak = () => {
             to="https://luhta.com/global/en/content/icepeak-brand"
             className="text-sm hover:underline hover:text-white hover:bg-black transition-all duration-400"
           >
-            Visit Ice Peak &rarr;
+            Visit Icepeak &rarr;
           </Link>
         </div>
         <p className="mt-5 md:mt-0 font-body text-lg">
