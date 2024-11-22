@@ -31,12 +31,12 @@ const luhta = () => {
           functional, always stylish.
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 ">
+      {/* <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 ">
         <img src={brownCrew} alt="" />
         <img src={mensCrew} alt="" />
         <img src={multicolorCrew} alt="" />
         <img src={womensZip} alt="" />
-      </div>
+      </div> */}
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
         <Link to={"/ice-peak"} className="flex items-center gap-2">
