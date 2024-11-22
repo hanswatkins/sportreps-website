@@ -47,8 +47,8 @@ const chillAngel = () => {
           <p className="font-bold font-header">BOREAL</p>
         </Link>
 
-        <Link to={"/emu-australia"} className="flex items-center gap-2">
-          <p className="font-bold font-header">EMU AUSTRALIA</p>
+        <Link to={"/gruezi"} className="flex items-center gap-2">
+          <p className="font-bold font-header">GRÜEZI BAG</p>
           <div>
             <BsChevronRight size={"2rem"} />
           </div>

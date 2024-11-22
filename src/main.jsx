@@ -13,7 +13,6 @@ import Brands from "./routes/brands";
 import ArntsonMarine from "./routes/arntsonMarine";
 import Boreal from "./routes/boreal";
 import ChillAngel from "./routes/chillAngel";
-import EmuAustralia from "./routes/emuAustralia";
 import Gruezi from "./routes/gruezi";
 import Haflinger from "./routes/haflinger";
 import IcePeak from "./routes/icePeak";
@@ -49,10 +48,6 @@ const router = createBrowserRouter([
       {
         path: "/chill-angel",
         element: <ChillAngel />,
-      },
-      {
-        path: "/emu-australia",
-        element: <EmuAustralia />,
       },
       {
         path: "/gruezi",

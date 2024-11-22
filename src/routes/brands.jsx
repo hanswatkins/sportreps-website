@@ -9,7 +9,6 @@ import luhta from "../assets/luhta.png";
 import point6 from "../assets/point6.jpeg";
 import wolky from "../assets/wolky.jpg";
 import kurt from "../assets/kurt.png";
-import emu from "../assets/emu-aesthetic3.png";
 import chillangel from "../assets/chillangel-bottoms.jpg";
 
 const Brands = () => {
@@ -37,14 +36,6 @@ const Brands = () => {
             <img src={chillangel} alt="..." />
             <h1 className="opacity-0 group-hover:opacity-100 transition-all duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20">
               CHILL ANGEL
-            </h1>
-          </div>
-        </Link>
-        <Link to={"/emu-australia"}>
-          <div className="relative group">
-            <img src={emu} alt="..." />
-            <h1 className="opacity-0 group-hover:opacity-100 transition-all duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20">
-              EMU AUSTRALIA
             </h1>
           </div>
         </Link>

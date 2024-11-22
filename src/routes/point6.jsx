@@ -45,7 +45,7 @@ const point6 = () => {
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
-          <p className="font-bold font-header">ICE PEAK</p>
+          <p className="font-bold font-header">ICEPEAK</p>
         </Link>
 
         <Link to={"/wolky"} className="flex items-center gap-2">
