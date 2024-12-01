@@ -1,8 +1,8 @@
 import React from "react";
-import brownCrew from "../assets/brown-crew.jpg";
-import multicolorCrew from "../assets/multicolor-crew.jpg";
-import mensCrew from "../assets/mens-crew.jpg";
-import womensZip from "../assets/womens-zip.jpg";
+import luhtagoggles from "../assets/luhtagoggles.png";
+import luhtajacketwoman from "../assets/luhtawoman.jpg";
+import luhtapants from "../assets/luhtapants.jpg";
+import luhtahood from "../assets/luhtahood.jpg";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -31,12 +31,12 @@ const luhta = () => {
           functional, always stylish.
         </p>
       </div>
-      {/* <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 ">
-        <img src={brownCrew} alt="" />
-        <img src={mensCrew} alt="" />
-        <img src={multicolorCrew} alt="" />
-        <img src={womensZip} alt="" />
-      </div> */}
+      <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 ">
+        <img src={luhtagoggles} alt="" />
+        <img src={luhtajacketwoman} alt="" />
+        <img src={luhtapants} alt="" />
+        <img src={luhtahood} alt="" />
+      </div>
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
         <Link to={"/ice-peak"} className="flex items-center gap-2">
