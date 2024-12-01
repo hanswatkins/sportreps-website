@@ -22,6 +22,7 @@ module.exports = {
         icePeak: "url('/src/assets/icepeak-hero.png')",
         luhta: "url('/src/assets/luhta-hero.jpg')",
         point6: "url('/src/assets/point6.jpeg')",
+        taho: "url('/src/assets/tahohero.jpg')",
         velous: "url('/src/assets/velous.jpg')",
         wolky: "url('/src/assets/wolky.jpg')",
         chillAngel: "url('/src/assets/chillangel-bottoms.jpg')",

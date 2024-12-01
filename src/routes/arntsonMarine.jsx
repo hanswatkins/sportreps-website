@@ -1,5 +1,6 @@
 import React from "react";
-
+import artnsonbags from "../assets/arntsonmarinebags.jpg";
+import arntsonbagsred from "../assets/arntsonmarinebagsred.jpg";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
@@ -35,9 +36,9 @@ const arntsonMarine = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 ">
-        {/* <img src={ninja} alt="" />
-        <img src={g1Lite} alt="" />
-        <img src={bambaMid} alt="" />
+        <img src={artnsonbags} alt="" />
+        <img src={arntsonbagsred} alt="" />
+        {/* <img src={bambaMid} alt="" />
         <img src={hurricane} alt="" /> */}
       </div>
 
