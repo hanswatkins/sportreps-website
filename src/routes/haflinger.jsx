@@ -17,7 +17,7 @@ const haflinger = () => {
             Quality since 1898.
           </h1>
           <Link
-            to="https://haflingerusa.com/"
+            to="https://us.haflinger.com/"
             className="text-sm hover:underline hover:text-white hover:bg-red-500 transition-all duration-400"
           >
             Visit Haflinger &rarr;
