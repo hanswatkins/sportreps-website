@@ -6,6 +6,17 @@ const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const location = useLocation();
 
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isNavOpen]);
+
   if (
     location.pathname == "/arntson-marine" ||
     location.pathname == "/boreal" ||
@@ -106,8 +117,7 @@ const NavBar = () => {
         display: none;
       } 
       .showMenuNav {
-        display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
         top: 0;
@@ -213,8 +223,7 @@ const NavBar = () => {
         display: none;
       } 
       .showMenuNav {
-        display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
         top: 0;
