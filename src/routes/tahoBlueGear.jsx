@@ -41,7 +41,7 @@ const tahoBlueGear = () => {
       </div>
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
-        <Link to={"/point-6"} className="flex items-center gap-2">
+        <Link to={"/redback"} className="flex items-center gap-2">
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
