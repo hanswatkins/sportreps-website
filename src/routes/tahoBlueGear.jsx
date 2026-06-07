@@ -45,7 +45,7 @@ const tahoBlueGear = () => {
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
-          <p className="font-bold font-header">POINT 6</p>
+          <p className="font-bold font-header">REDBACK</p>
         </Link>
 
         <Link to={"/wolky"} className="flex items-center gap-2">

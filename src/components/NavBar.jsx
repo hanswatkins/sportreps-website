@@ -15,7 +15,8 @@ const NavBar = () => {
     location.pathname == "/ice-peak" ||
     location.pathname == "/velous-footwear" ||
     location.pathname == "/wolky" ||
-    location.pathname == "/chill-angel"
+    location.pathname == "/chill-angel" ||
+    location.pathname == "/redback"
   ) {
     // white navbar
     return (

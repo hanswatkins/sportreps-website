@@ -18,6 +18,7 @@ import Haflinger from "./routes/haflinger";
 import IcePeak from "./routes/icePeak";
 import Luhta from "./routes/luhta";
 import Point6 from "./routes/point6";
+import RedBack from "./routes/redback";
 import TahoBlueGear from "./routes/tahoBlueGear";
 import Wolky from "./routes/wolky";
 import ContactForm from "./routes/contactform";
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
         element: <Point6 />,
       },
       {
+        path: "/redback",
+        element: <RedBack />,
+      },
+      {
         path: "/tahoe-blue-gear",
         element: <TahoBlueGear />,
       },
@@ -93,5 +98,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
