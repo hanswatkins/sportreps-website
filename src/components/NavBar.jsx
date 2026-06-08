@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import sportrepsLogo from "../assets/sportrepsfavicon6.png";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -37,7 +38,7 @@ const NavBar = () => {
           <Link to={"/"} className="hover:cursor-pointer">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white font-header select-none tracking-wider hover:cursor-pointer">
               SportReps NW
-            </h1>
+            </h1>{" "}
           </Link>
         </div>
 
@@ -139,7 +140,7 @@ const NavBar = () => {
       //    Title and Logo
       <div className="flex items-center justify-between mb-8 lg:mb-24 m-6 md:m-14 bg-transparent z-50">
         <div className="flex items-center gap-3">
-          {/* <img className='w-20' src={logo} alt='logo' /> */}
+          {/* <img className="w-12" src={sportrepsLogo} alt="logo" /> */}
           <Link to={"/"} className="hover:cursor-pointer">
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold font-header select-none tracking-wider hover:cursor-pointer">
               SportReps NW
