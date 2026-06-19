@@ -57,22 +57,6 @@ const Brands = () => {
             </h1>
           </div>
         </Link>
-        <Link to={"/ice-peak"}>
-          <div className="relative group">
-            <img src={icepeak} alt="..." />
-            <h1 className="opacity-0 group-hover:opacity-100 transition-all duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20">
-              ICEPEAK
-            </h1>
-          </div>
-        </Link>
-        <Link to={"/luhta"}>
-          <div className="relative group">
-            <img src={luhta} alt="..." />
-            <h1 className="opacity-0 group-hover:opacity-100 transition-all duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20">
-              LUHTA
-            </h1>
-          </div>
-        </Link>
         <Link to={"/point-6"}>
           <div className="relative group">
             <img src={point6} alt="..." />

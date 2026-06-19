@@ -41,11 +41,11 @@ const point6 = () => {
       </div>
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
-        <Link to={"/ice-peak"} className="flex items-center gap-2">
+        <Link to={"/haflinger"} className="flex items-center gap-2">
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
-          <p className="font-bold font-header">ICEPEAK</p>
+          <p className="font-bold font-header">HAFLINGER</p>
         </Link>
 
         <Link to={"/redback"} className="flex items-center gap-2">
