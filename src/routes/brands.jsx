@@ -82,14 +82,6 @@ const Brands = () => {
           </div>
         </Link>
 
-        <Link to={"/wolky"}>
-          <div className="relative group">
-            <img src={wolky} alt="..." />
-            <h1 className="opacity-0 group-hover:opacity-100 transition-all duration-200 flex group-hover:cursor-pointer items-center justify-center text-white text-3xl font-header font-bold absolute top-0 w-full h-full bg-gradient-to-r from-white/20 to-gray-500/20">
-              WOLKY
-            </h1>
-          </div>
-        </Link>
         <Link to={"/contact"}>
           <div className="relative group">
             <img src={kurt} alt="..." />
