@@ -27,12 +27,9 @@ const arntsonMarine = () => {
           our own independent brand, we have engineered specialty products for
           our community. Each product’s attributes are carefully considered to
           provide fresh authentic solutions and performance to the sports we
-          love. We personally test and revise each product till it meets our
-          satisfaction. If you are a sailor, windsurfer, kitesurfer, paddler, or
-          power boater, we hope you find delight with the unique design and
-          performance of our products. We always welcome feedback, reviews, and
-          ideas. Our goal is to provide products that complement your water
-          sport endeavors.
+          love. If you are a sailor, windsurfer, kitesurfer, paddler, or power
+          boater, we hope you find delight with the unique design and
+          performance of our products.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-6 max-w-[1800px] p-10 md:grid-cols-2 md:p-20 mx-auto justify-items-center">
