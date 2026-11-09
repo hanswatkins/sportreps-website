@@ -48,8 +48,8 @@ const tahoBlueGear = () => {
           <p className="font-bold font-header">REDBACK</p>
         </Link>
 
-        <Link to={"/arntson-marine"} className="flex items-center gap-2">
-          <p className="font-bold font-header">ARNTSON MARINE</p>
+        <Link to={"/vibae"} className="flex items-center gap-2">
+          <p className="font-bold font-header">VIBAE</p>
           <div>
             <BsChevronRight size={"2rem"} />
           </div>

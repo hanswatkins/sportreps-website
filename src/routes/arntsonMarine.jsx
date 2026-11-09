@@ -40,11 +40,11 @@ const arntsonMarine = () => {
       </div>
 
       <nav className="p-6 md:p-14 justify-between text-xl lg:text-2xl flex">
-        <Link to={"/tahoe-blue-gear"} className="flex items-center gap-2">
+        <Link to={"/vibae"} className="flex items-center gap-2">
           <div>
             <BsChevronLeft size={"2rem"} />
           </div>
-          <p className=" font-bold font-header ">TAHOE BLUE GEAR</p>
+          <p className=" font-bold font-header ">VIBAE</p>
         </Link>
 
         <Link to={"/boreal"} className="flex items-center gap-2">

@@ -20,7 +20,7 @@ import Luhta from "./routes/luhta";
 import Point6 from "./routes/point6";
 import RedBack from "./routes/redback";
 import TahoBlueGear from "./routes/tahoBlueGear";
-import Wolky from "./routes/wolky";
+import Vibae from "./routes/vibae";
 import ContactForm from "./routes/contactform";
 import Success from "./routes/success";
 
@@ -80,8 +80,8 @@ const router = createBrowserRouter([
         element: <TahoBlueGear />,
       },
       {
-        path: "/wolky",
-        element: <Wolky />,
+        path: "/vibae",
+        element: <Vibae />,
       },
       {
         path: "/contact-form",
