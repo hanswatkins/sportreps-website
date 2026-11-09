@@ -17,7 +17,7 @@ const tahoBlueGear = () => {
             Founded by the Arntson Family
           </h1>
           <Link
-            to="https://point6.com/"
+            to="https://tahobluegear.com/"
             className="text-sm hover:underline hover:text-white hover:bg-blue-400 transition-all duration-400"
           >
             Visit Tahoe Blue Gear &rarr;
