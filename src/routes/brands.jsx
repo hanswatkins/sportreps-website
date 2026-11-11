@@ -4,8 +4,6 @@ import arntson from '../assets/arntsonmarine-hero.png';
 import boreal from '../assets/boreal.jpg';
 import gruezi from '../assets/gruezi.jpg';
 import haflinger from '../assets/haflinger.jpg';
-import icepeak from '../assets/icepeak-thumb.png';
-import luhta from '../assets/luhta.png';
 import point6 from '../assets/point6.jpeg';
 import tahohero from '../assets/tahohero.jpg';
 import kurt from '../assets/kurt.png';
